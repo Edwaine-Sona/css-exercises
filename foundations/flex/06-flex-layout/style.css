@@ -10,6 +10,39 @@ body {
   justify-content: space-between;
 }
 
+ul{
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+
+ul li{
+  list-style-type: none;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #7a6b4b;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+
+
+.footer{
+  background: #eeeeee;
+}
+
+.footer ul li:hover, .header ul li:hover{
+  text-decoration: underline #7a6b4b;
+}
+
+
 
 
 img {
